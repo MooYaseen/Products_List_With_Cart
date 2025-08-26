@@ -1,0 +1,14 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width:767px) {
+  #root {
+    grid-template-columns: 1fr;
+  }
+}
